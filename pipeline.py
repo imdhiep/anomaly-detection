@@ -8,7 +8,7 @@ import json
 import pickle
 from datetime import datetime
 
-from data_loader import load_and_normalize_volume, load_dataset
+from dataset import load_and_normalize_volume, load_dataset
 from feature_extractor import FeatureExtractor3D, Simple3DCNN
 from feature_embedding import FeatureEmbedding, PatchSampler
 from autoencoder import Autoencoder, VariationalAutoencoder, DenoisingAutoencoder

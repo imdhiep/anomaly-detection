@@ -34,7 +34,7 @@ def test_component(component_name: str, test_func):
 
 def test_data_loader():
     """Test Component 1: Data Loading"""
-    from data_loader import VolumeDataLoader
+    from dataset import VolumeDataLoader
     
     # Test synthetic data loading
     loader = VolumeDataLoader()
