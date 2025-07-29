@@ -16,7 +16,7 @@ import os
 from .filters import ImageFilter, FilterType
 from .histogram_equalization import HistogramEqualizer, ColorSpace
 from .depth_estimation import DepthEstimator, DepthPostProcessor
-from ..utils.visualization import RGBDVisualizer
+from .visualization import RGBDVisualizer
 
 
 class RGBToRGBDProcessor:

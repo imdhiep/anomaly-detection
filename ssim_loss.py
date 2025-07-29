@@ -1,6 +1,6 @@
 import torch
 import torch.nn.functional as F
-from pytorch_msssim import ssim  # cài thư viện pytorch-msssim
+from pytorch_msssim import ssim
 
 def ssim_loss(x, y):
     """
